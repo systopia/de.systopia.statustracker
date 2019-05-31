@@ -1,0 +1,99 @@
+{
+  "_lookup": ["name"],
+  "_translate": ["title"],
+  "name": "status_tracker_status",
+  "title": "Status Tracker Status",
+  "is_active": "1",
+  "_values": [
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "not_in_contact_yet",
+      "value": "1",
+      "label": "not in contact yet",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "contacting_without_reply",
+      "value": "2",
+      "label": "contacting without reply",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "on_hold",
+      "value": "3",
+      "label": "on hold",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "in_negotiation",
+      "value": "4",
+      "label": "in negotiation",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "quotation_sent",
+      "value": "5",
+      "label": "quotation sent",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "active_client",
+      "value": "6",
+      "label": "active client",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "project_finished",
+      "value": "7",
+      "label": "project finished",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "abandoned",
+      "value": "8",
+      "label": "abandoned",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label"],
+      "name": "not_interested",
+      "value": "9",
+      "label": "not interested",
+      "filter": "0",
+      "is_reserved": "0",
+      "is_active": "1"
+    }
+  ]
+}
