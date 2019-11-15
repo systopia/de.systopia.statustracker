@@ -34,4 +34,21 @@ class CRM_Statustracker_Upgrader extends CRM_Statustracker_Upgrader_Base {
 
     return TRUE;
   }
+
+  /**
+   * Update to version 0.2
+   *
+   * @return TRUE on success
+   * @throws Exception
+   */
+  public function upgrade_0020() {
+    $this->ctx->log->info('Updating to version 0.2...');
+
+    // add deadline filed
+    require_once 'CRM/Statustracker/CustomData.php';
+    $customData = new CRM_Statustracker_CustomData('de.systopia.statustracker');
+    $customData->syncCustomGroup(E::path('resources/status_tracker_custom_group.json'));
+
+    return TRUE;
+  }
 }
